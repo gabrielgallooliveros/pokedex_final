@@ -1,0 +1,84 @@
+
+.pokeInfo__Container {
+  box-shadow: 5px 5px 5px 5px  rgb(85, 85, 85);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 6rem;
+  height: 500px;
+} 
+
+
+.pokeInfo__header {
+  height: 190px;
+  position: relative;
+}
+
+.pokeInfo_img {
+  width: 25%;
+  position: absolute;
+  left: 35%;
+  top: -55%;
+}
+
+.pokeInfo__id {
+  margin-top: 1.2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pokeInfo__nameTitle {
+  margin-top: 1.2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pokeInfo__containerAside {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pokeInfo__containerInner {
+  width: 50%;
+  text-align: center;
+}
+
+.pokeInfo__subtitle {
+  text-align: center;
+  margin-top: 1rem;
+  color: rgb(57, 55, 55);
+  font-weight: 500;
+}
+
+.pokeInfo__list {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.pokeInfo__item{
+  color: white;
+  width: 150px;
+  font-size: 18px;
+  text-align: center;
+  padding: 0.4em;
+  text-transform: capitalize;
+  background-color: #6C3D9A;
+}
+
+.pokeInfo__item:nth-child(odd) {
+  background-color: #85C9C5;
+}
+
+.skill {
+  background-color: #9d8639;
+}
+.skill:nth-child(odd) {
+  background-color: #485383;
+}
+
